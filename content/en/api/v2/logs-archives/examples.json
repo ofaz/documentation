@@ -1,4 +1,86 @@
 {
+  "GetLogsArchiveOrder": {
+    "responses": {
+      "200": {
+        "json": {
+          "archives_ids": [
+            "a2zcMylnM4OCHpYusxIi1g",
+            "a2zcMylnM4OCHpYusxIi2g",
+            "a2zcMylnM4OCHpYusxIi3g"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">archives_ids&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>Ordered Array of <code>&lt;ARCHIVE_ID&gt;</code> strings, the order of archive IDs in the array\ndefine the overall Archives order for Datadog.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      },
+      "403": {
+        "json": {
+          "errors": [
+            "Bad Request"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">errors&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>A list of errors.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      }
+    },
+    "request": {
+      "json_curl": {},
+      "json": {},
+      "html": ""
+    }
+  },
+  "UpdateLogsArchiveOrder": {
+    "responses": {
+      "200": {
+        "json": {
+          "archives_ids": [
+            "a2zcMylnM4OCHpYusxIi1g",
+            "a2zcMylnM4OCHpYusxIi2g",
+            "a2zcMylnM4OCHpYusxIi3g"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">archives_ids&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>Ordered Array of <code>&lt;ARCHIVE_ID&gt;</code> strings, the order of archive IDs in the array\ndefine the overall Archives order for Datadog.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      },
+      "400": {
+        "json": {
+          "errors": [
+            "Bad Request"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">errors&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>A list of errors.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      },
+      "403": {
+        "json": {
+          "errors": [
+            "Bad Request"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">errors&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>A list of errors.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      },
+      "422": {
+        "json": {
+          "errors": [
+            "Bad Request"
+          ]
+        },
+        "html": "<div class=\"table-response schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">errors&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>A list of errors.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+      }
+    },
+    "request": {
+      "json_curl": {
+        "archives_ids": [
+          "a2zcMylnM4OCHpYusxIi1g",
+          "a2zcMylnM4OCHpYusxIi2g",
+          "a2zcMylnM4OCHpYusxIi3g"
+        ]
+      },
+      "json": {
+        "archives_ids": [
+          "a2zcMylnM4OCHpYusxIi1g",
+          "a2zcMylnM4OCHpYusxIi2g",
+          "a2zcMylnM4OCHpYusxIi3g"
+        ]
+      },
+      "html": "<div class=\"table-request schema-table has-no-expands row \">\n    <p class=\"expand-all js-expand-all text-primary\">Expand All</p>\n    <div class=\"col-12\">\n      <div class=\"row table-header\">\n        <div class=\"col-4 column\">\n          <p class=\"font-semibold\">Field</p>\n        </div>\n        <div class=\"col-2 column\">\n          <p class=\"font-semibold\">Type</p>\n        </div>\n        <div class=\"col-6 column\">\n          <p class=\"font-semibold\">Description</p>\n        </div>\n      </div>\n      <div class=\"row   \">\n          <div class=\"col-12 first-column\">\n            <div class=\"row first-row  \">\n              <div class=\"col-4 column\">\n      <p class=\"key\">archives_ids&nbsp;[<em>required</em>]</p>\n    </div>\n              <div class=\"col-2 column\"><p>[string]</p></div>\n              <div class=\"col-6 column\"><p>Ordered Array of <code>&lt;ARCHIVE_ID&gt;</code> strings, the order of archive IDs in the array\ndefine the overall Archives order for Datadog.</p></div>\n            </div>\n            \n          </div>\n        </div>\n    </div>  \n  </div>"
+    }
+  },
   "ListLogsArchives": {
     "responses": {
       "200": {
